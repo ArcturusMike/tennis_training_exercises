@@ -59,6 +59,7 @@
            
             $erg = mysqli_query($db, $query);
 
+            // set head line depending on the category
             echo "<h1>";
             if ($category == "groundstrokes") {
                 echo "Forehand & backhand";
